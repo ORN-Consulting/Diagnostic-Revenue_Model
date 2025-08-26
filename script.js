@@ -503,7 +503,7 @@ const BusinessModelDiagnostic = () => {
   // Header
   React.createElement('div', { className: "text-center mb-8" },
   React.createElement('h1', { className: "text-3xl font-bold text-gray-800 mb-2" }, "비즈니스 모델 진단"),
-  React.createElement('p', { className: "text-gray-600" }, "낡은 이익모델 5가지 유형을 진단합니다")),
+  React.createElement('p', { className: "text-gray-600" }, "이익모델 5가지 유형을 진단합니다")),
 
   // Progress
   React.createElement('div', { className: "mb-8" },
