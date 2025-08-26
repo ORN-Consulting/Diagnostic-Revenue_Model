@@ -1,0 +1,24 @@
+/* CodePen에서는 Tailwind CSS가 CDN으로 로드되므로 추가 CSS는 필요하지 않습니다 */
+
+/* 만약 커스텀 스타일이 필요하다면 여기에 추가하세요 */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 레이더 차트 텍스트 개선 */
+.recharts-polar-angle-axis-tick text {
+  font-size: 12px;
+  fill: #374151;
+}
+
+.recharts-polar-radius-axis-tick text {
+  font-size: 10px;
+  fill: #6B7280;
+}
